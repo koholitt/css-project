@@ -29,7 +29,9 @@ header{
 }
 
 section{
-    margin: 50px;
+    margin: 60px;
+    font-weight: lighter;
+    font-size: 18px;
 }
 
 /* Complex style */
@@ -65,6 +67,10 @@ ul{
     max-width: 500px;
 }
 
+.head-info p{
+    text-align: justify;
+}
+
 .head-info h1{
     font-size: 50px;
     font-weight: 900;
@@ -81,4 +87,25 @@ ul{
 
 /* Content */
 
+section h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
 
+.body-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.body-info p{
+    text-align: justify;
+    max-width: 300px;
+}
+
+.body-info img{
+    width: 300px;
+    border-radius: 10px;
+}
