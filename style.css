@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: monospace;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: #1f2937;
+    color: white;
+}
+
+/* Complex style */
+
+.top-head{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.body-head{
+    display: flex;
+}
+
+.body-head img{
+    width: 500px;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+
+
