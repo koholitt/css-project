@@ -17,31 +17,68 @@ a{
     color: white;
 }
 
+p{
+    padding: 10px;
+    font-size: 18px;
+}
+
 header{
     background-color: #1f2937;
     color: white;
+    padding: 50px;
+}
+
+section{
+    margin: 50px;
 }
 
 /* Complex style */
 
+/* Header */
+ul{
+    display: flex;
+    gap: 50px;
+}
+
 .top-head{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 80px;
 }
 
 .body-head{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .body-head img{
     width: 500px;
-    height: auto;
+    padding: 20px;
+    border: 1px inset white;
 }
 
-ul{
+.head-info{
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 500px;
 }
+
+.head-info h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.head-info button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Content */
 
 
