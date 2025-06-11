@@ -18,7 +18,6 @@ a{
 }
 
 p{
-    padding: 10px;
     font-size: 18px;
 }
 
@@ -108,4 +107,70 @@ section h1{
 .body-info img{
     width: 300px;
     border-radius: 10px;
+}
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+}
+
+/* Quote */
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+    padding: 100px;
+}
+
+.quote h2{
+    font-weight: lighter;
+    text-align: justify;
+    font-style: italic;
+}
+
+.quote p{
+    font-weight: 600;
+}
+
+/* Final */
+.final-info{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-body{
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-shrink: 1;
+    gap: 50px;
+    padding: 70px 100px;
+    border-radius: 10px;
+
+}
+
+.btn button{
+    padding: 10px 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
